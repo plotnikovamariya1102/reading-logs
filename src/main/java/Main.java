@@ -4,13 +4,8 @@ public class Main {
 
     long amount = 1000_60;
     boolean registered = true;
-    long expected = 30;
 
-    long actual = service.calculate(amount, registered);
-
-    boolean passed = expected == actual;
-
-    System.out.println(passed);
+    System.out.println(service.calculate(amount, registered));
   }
 }
 
